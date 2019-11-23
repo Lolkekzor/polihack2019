@@ -143,19 +143,41 @@ ul > li > a {
   td {
     font-size: 14px !important;
   }
-  table > tbody > tr {
+  table > tbody > a > tr {
     width: 100% !important;
   }
-  table > tbody > tr > td:nth-child(3) {
+  table > tbody > a > tr > td:nth-child(3) {
     padding-right: 0px !important;
     display: block !important;
     width: 100% !important;
   }
-  table > tbody > tr > td:nth-child(4),
-  table > tbody > tr > td:nth-child(5),
-  table > tbody > tr > td:nth-child(6),
-  table > tbody > tr > td:nth-child(7) {
+  table > tbody > a > tr > td:nth-child(4),
+  table > tbody > a > tr > td:nth-child(5),
+  table > tbody > a > tr > td:nth-child(6),
+  table > tbody > a > tr > td:nth-child(7) {
     display: block !important;
     width: 100% !important;
   }
+}
+
+.question-div {
+
+  flex-direction: row;
+  justify-content: space-between;
+  display: block;
+  width: 100%
+}
+.question-div:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+tr {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.add-border {
+  border: 1px
 }
