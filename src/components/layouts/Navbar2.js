@@ -1,14 +1,16 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { Dropdown } from "react-bootstrap";
 
 const Navbar2 = ({ showLoader }) => {
   return (
     <Navbar style={{ background: "#e8e8e8" }}>
       <Nav className="mr-auto navbar2">
+
         {/** Aici modificam pentru categorii (materii) */}
 
-        {["ASDN", "Grafica", "Assembly", "OOP"].map(item => {
+        {["ASDN", "Grafica", "Assembly", "OOP", "PSN", "Electrotehnica"].map(item => {
           return (
             <Link
               to={"/"+item}
@@ -40,4 +42,7 @@ const linkStyle = {
   background: "#fff"
 };
 
+const dropDownMenuStyle = {
+  boxShadow: " 0px 2px 15px -7px rgba(0, 0, 0, 0.75)"
+};
 export default Navbar2;
