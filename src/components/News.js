@@ -4,13 +4,10 @@ import axios from "axios";
 import Stories from "./layouts/Stories";
 import Loader from "./layouts/Loader";
 
-const News = props => {
-  const [state, setState] = useState([]);
-  const [count, setCount] = useState(21);
-  const [isLoading, setLoading] = useState(false);
-
+class News extends React.Component {
   //a global index to keep track of the all showed items
 
+<<<<<<< HEAD
   //setting different api params for different routes
   const checkRoute = () => {
     let route;
@@ -143,6 +140,23 @@ const News = props => {
         )}
     </>
   );
+=======
+  //return statement
+  render() {
+    return (
+      <div
+        className={"container-fluid main"}
+      >
+        <table className="table">
+          <tbody>
+            <Stories state={this.props.data} />
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+  
+>>>>>>> master
 };
 
-export default withRouter(News);
+export default News;
