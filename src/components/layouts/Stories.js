@@ -7,7 +7,7 @@ const Stories = ({ state }) => {
     <>
       {state.map(
         ({ item, author, title, score, comments_count, time, url, id }) => (
-          <Link class="question-div" to={{pathname: "question/1", param1:"param1"}}>
+          //<Link class="question-div" to={{pathname: "question/"+id, title: title}}>
             <tr key={item}>
               <td style={{ padding: "0px" }}>
                 <i
@@ -32,35 +32,25 @@ const Stories = ({ state }) => {
                 {score}
               </td>
               <td style={{ paddingRight: "80px", fontWeight: "600" }}>
-                <a href={url} target="_blank" rel="noopener noreferrer">
+                <Link class="question-div" to={{pathname: "question/"+id, title: title}}>
                   {title}
-                </a>
+                </Link>
               </td>
               <React.Fragment className="info">
                 <td style={{ color: "#828282" }}>
                   <i className="fas fa-user" />{" "}
-                  <a
-                    style={{ color: "#828282" }}
-                    rel="noopener noreferrer"
-                  >
                     {author}
-                  </a>
                 </td>
                 <td style={{ color: "#828282" }}>
                   <i className="fas fa-clock"> {timeago(time * 1000)}</i>
                 </td>
                 <td style={{ color: "#828282" }}>
                   <i className="far fa-comment-alt" />{" "}
-                  <a
-                    style={{ color: "#828282" }}
-                    rel="noopener noreferrer"
-                  >
                     {comments_count}
-                  </a>
                 </td>
               </React.Fragment>
             </tr>
-          </Link>
+          //</Link>
         )
       )}
     </>

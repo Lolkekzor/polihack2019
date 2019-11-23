@@ -8,25 +8,69 @@ class CommentPreview extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            count: 0,
-            plusDisabled: false,
-            minusDisabled: false,
+            count: this.props.upvotes,
+            upvoted: false,
+            downvoted: false,
             bestAnswer: false
         }
     }
 
+    changeColor(first, second, uf) {
+        if (uf) {
+            document.getElementById(first).setAttribute("style", "background-color: red;");
+            document.getElementById(second).setAttribute("style", "background-color: #007bff;");
+        } else {
+            document.getElementById(first).setAttribute("style", "background-color: #007bff;");
+        }
+    }
+
     plus() {
-        this.setState({
-            count: this.state.count + 1,
-            plusDisabled: true
-        })
+        if (!this.state.upvoted) {
+            if (this.state.downvoted)
+                this.setState({
+                    count: this.state.count + 2,
+                    upvoted: !this.state.upvoted,
+                    downvoted: !this.state.downvoted
+                })
+            else
+                this.setState({
+                    count: this.state.count + 1,
+                    upvoted: !this.state.upvoted
+                })
+
+            this.changeColor("#upvote" + this.props.id, "#downvote" + this.props.id, 1);
+        }
+        else {
+            this.setState({
+                count: this.state.count - 1,
+                upvoted: !this.state.upvoted
+            })
+            this.changeColor("#upvote" + this.props.id, "#downvote" + this.props.id, 0);
+        }
     }
 
     minus() {
-        this.setState({
-            count: this.state.count - 1,
-            minusDisabled: true
-        })
+        if (!this.state.downvoted) {
+            if (this.state.upvoted)
+                this.setState({
+                    count: this.state.count - 2,
+                    upvoted: !this.state.upvoted,
+                    downvoted: !this.state.downvoted
+                })
+            else
+                this.setState({
+                    count: this.state.count - 1,
+                    downvoted: !this.state.downvoted
+                })
+            this.changeColor("#downvote" + this.props.id, "#upvote" + this.props.id, 1);
+        }
+        else {
+            this.setState({
+                count: this.state.count + 1,
+                downvoted: !this.state.downvoted
+            })
+            this.changeColor("#downvote" + this.props.id, "#upvote" + this.props.id, 0);
+        }
     }
 
     bestAns() {
@@ -39,35 +83,35 @@ class CommentPreview extends React.Component {
         return (
             <Row style={{ width: '75%' }} className="centerish">
                 <Col md="1">
-                    <SubdirectoryArrowRightIcon style={{ width: '75px', height: '75px', margin: '10px 10px 10px 30px' }}/>
+                    <SubdirectoryArrowRightIcon style={{ width: '75px', height: '75px', margin: '10px 10px 10px 30px' }} />
                 </Col>
                 <Col md="11">
                     <Card>
                         <Row className="w-100 noPadding">
                             <Col md="1" >
                                 <Row className="d-flex justify-content-center">
-                                    <Button disabled={this.state.plusDisabled} onClick={() => { this.plus() }}>⬆</Button>
+                                    <Button id={"#upvote" + this.props.id} onClick={() => { this.plus() }}>⬆</Button>
                                 </Row>
                                 <Row className="d-flex justify-content-center">
                                     <h6>{this.state.count}</h6>
                                 </Row>
                                 <Row className="d-flex justify-content-center">
-                                    <Button disabled={this.state.minusDisabled} onClick={() => { this.minus() }}>⬇</Button>
+                                    <Button id={"#downvote" + this.props.id} disabled={this.state.minusDisabled} onClick={() => { this.minus() }}>⬇</Button>
                                 </Row>
                             </Col>
                             <Col md="10">
                                 <Card.Body>
-                                    <Card.Text>
-                                        ce plm se antampla
+                                    <Card.Text className="text-left">
+                                        {this.props.text}
                                     </Card.Text>
                                 </Card.Body>
                             </Col>
                             <Col md="1">
-                                {this.state.bestAnswer ? 
-                                (<CheckCircleIcon onClick={() => {this.bestAns()}} style={{ width: '60px', height: '60px', margin: '20px 0px 0px 0px' }}/>) 
-                                : 
-                                (<CheckCircleOutlineIcon onClick={() => {this.bestAns()}} style={{ width: '60px', height: '60px', margin: '20px 0px 0px 0px' }}/>)}
-                                
+                                {this.state.bestAnswer ?
+                                    (<CheckCircleIcon onClick={() => { this.bestAns() }} style={{ width: '60px', height: '60px', margin: '20px 0px 0px 0px' }} />)
+                                    :
+                                    (<CheckCircleOutlineIcon onClick={() => { this.bestAns() }} style={{ width: '60px', height: '60px', margin: '20px 0px 0px 0px' }} />)}
+
                             </Col>
                         </Row>
                     </Card>
