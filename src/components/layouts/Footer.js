@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <span>
-        Made with love and passion{" "}
+        For students by students{" "}
         <span role="img" aria-label="emoji">
           ❤️
         </span>{" "}
