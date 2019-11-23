@@ -25,105 +25,6 @@ const App = () => {
       <Header showLoader={showLoader} />
       <Navbar2 showLoader={showLoader} />
       <Switch>
-<<<<<<< HEAD
-        <>
-          <Route
-            exact
-            key="comment"
-            path="/comment"
-            render={() => (
-              <CommentPreview/>
-            )}
-          />
-          <Route
-            exact
-            key="post"
-            path="/post"
-            render={() => (
-              <PostPreview/>
-            )}
-          />
-          <Route
-            exact
-            key="home"
-            path="/"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="shows"
-            path="/shows"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="ask"
-            path="/ask"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="jobs"
-            path="/jobs"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-
-          <Route
-            key="top"
-            path="/top"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="new"
-            path="/new"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="best"
-            path="/best"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-        </>
-=======
         {["ASDN", "Grafica", "Assembly", "OOP", "PSN", "Electrotehnica"].map(item => {
           return (
             <Route
@@ -149,7 +50,6 @@ const App = () => {
             />
           )}
         />
->>>>>>> master
       </Switch>
       <Footer />
     </Router>
