@@ -19,24 +19,6 @@ class News extends React.Component {
           </tbody>
         </table>
       </div>
-      /*
-      {this:props.isLoading ? (
-        <Loader />
-      ) : (
-        <div
-          className={
-            isLoading
-              ? "container-fluid main overlay"
-              : "container-fluid main"
-          }
-        >
-          <table className="table">
-            <tbody>
-              <Stories state={state} />
-            </tbody>
-          </table>
-        </div>
-      )} */
     );
   }
   

@@ -51,7 +51,12 @@ table {
   border-top: 2px solid #ff6600;
   color: #000;
   padding: 20px;
-  padding-bottom: 0;
+  padding-bottom: 40px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 ul > li {
   display: inline-block;
