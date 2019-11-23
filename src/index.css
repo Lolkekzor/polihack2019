@@ -18,11 +18,11 @@ body {
 }
 
 .centerish {
-  margin: 0 auto; /* Added */
+  margin: 0 auto; /* Added */ 
 }
 
 .noPadding {
-  margin: 5px 0px 0px 0px !important;
+  margin: 5px 0px 5px 0px !important;
   padding: 0 !important;
 }
 

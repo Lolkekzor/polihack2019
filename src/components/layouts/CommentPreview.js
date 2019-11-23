@@ -1,5 +1,8 @@
 import React from 'react';
 import { Card, Button, Col, Row } from 'react-bootstrap';
+import SubdirectoryArrowRightIcon from '@material-ui/icons/SubdirectoryArrowRight';
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 
 class CommentPreview extends React.Component {
     constructor(props) {
@@ -7,7 +10,8 @@ class CommentPreview extends React.Component {
         this.state = {
             count: 0,
             plusDisabled: false,
-            minusDisabled: false
+            minusDisabled: false,
+            bestAnswer: false
         }
     }
 
@@ -25,17 +29,22 @@ class CommentPreview extends React.Component {
         })
     }
 
+    bestAns() {
+        this.setState({
+            bestAnswer: !this.state.bestAnswer
+        })
+    }
+
     render() {
         return (
             <Row style={{ width: '75%' }} className="centerish">
-                <Col sm="1">
-                    <br/>
-                    sageata dreapta jos
+                <Col md="1">
+                    <SubdirectoryArrowRightIcon style={{ width: '75px', height: '75px', margin: '10px 10px 10px 30px' }}/>
                 </Col>
-                <Col sm="11">
+                <Col md="11">
                     <Card>
                         <Row className="w-100 noPadding">
-                            <Col sm="1" >
+                            <Col md="1" >
                                 <Row className="d-flex justify-content-center">
                                     <Button disabled={this.state.plusDisabled} onClick={() => { this.plus() }}>⬆</Button>
                                 </Row>
@@ -46,13 +55,19 @@ class CommentPreview extends React.Component {
                                     <Button disabled={this.state.minusDisabled} onClick={() => { this.minus() }}>⬇</Button>
                                 </Row>
                             </Col>
-                            <Col sm="10">
+                            <Col md="10">
                                 <Card.Body>
-                                    <Card.Title className="border-bottom">Comment Title</Card.Title>
                                     <Card.Text>
                                         ce plm se antampla
-                        </Card.Text>
+                                    </Card.Text>
                                 </Card.Body>
+                            </Col>
+                            <Col md="1">
+                                {this.state.bestAnswer ? 
+                                (<CheckCircleIcon onClick={() => {this.bestAns()}} style={{ width: '60px', height: '60px', margin: '20px 0px 0px 0px' }}/>) 
+                                : 
+                                (<CheckCircleOutlineIcon onClick={() => {this.bestAns()}} style={{ width: '60px', height: '60px', margin: '20px 0px 0px 0px' }}/>)}
+                                
                             </Col>
                         </Row>
                     </Card>
