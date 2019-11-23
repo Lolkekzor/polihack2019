@@ -1,7 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Dropdown } from "react-bootstrap";
 
 const Navbar2 = ({ showLoader }) => {
   return (
@@ -40,9 +39,5 @@ const linkStyle = {
   borderRadius: "20px",
   transition: " all 0.5s",
   background: "#fff"
-};
-
-const dropDownMenuStyle = {
-  boxShadow: " 0px 2px 15px -7px rgba(0, 0, 0, 0.75)"
 };
 export default Navbar2;

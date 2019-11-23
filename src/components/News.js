@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { withRouter } from "react-router-dom";
-import axios from "axios";
+import React from "react";
 import Stories from "./layouts/Stories";
-import Loader from "./layouts/Loader";
 
 class News extends React.Component {
   //a global index to keep track of the all showed items
@@ -11,7 +8,7 @@ class News extends React.Component {
   render() {
     return (
       <div
-        className={"container-fluid main"}
+        className={"container-fluid main w-75"}
       >
         <table className="table">
           <tbody>

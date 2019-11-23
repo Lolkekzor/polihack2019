@@ -31,6 +31,6 @@ body {
   text-align: center;
 }
 
-.btn:disabled {
+.btn:active {
   background-color: red
 }
