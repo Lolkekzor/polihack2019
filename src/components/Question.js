@@ -16,10 +16,10 @@ class Question extends React.Component {
     render() {
         return (
             <div>
-                <PostPreview title={this.state.post.title} content={this.state.post.desc} upvotes={this.state.post.upvotes} />
+                <PostPreview user={this.state.post.user} title={this.state.post.title} content={this.state.post.desc} upvotes={this.state.post.upvotes} />
                 <div>
                     {this.state.post.comments.map((comment, idx) => (
-                        <CommentPreview id={idx} text={comment.text} upvotes={comment.upvotes}/>
+                        <CommentPreview user={comment.user} id={idx} text={comment.text} upvotes={comment.upvotes}/>
                     ))}
                 </div>
             </div>
