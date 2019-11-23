@@ -178,5 +178,27 @@ tr {
 }
 
 .add-border {
-  border: 1px
+  border-left: 5px solid rgb(255, 102, 0);
+  border-right: 5px solid rgb(255, 102, 0);
+  margin : 5px;
+  padding: 20px;
+}
+
+.invisible-border {
+  margin : 5px;
+  padding: 20px;
+}
+
+.reward-class {
+  margin: 2px;
+  padding: 2px;
+  border-top: 1px solid black;
+  /*border-bottom: 1px solid black;
+  /*border-radius: 5px;*/
+}
+
+.cent-vert {
+  height: 50px;
+  line-height: 50px;
+  text-align: 'center';
 }
