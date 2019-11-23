@@ -7,59 +7,22 @@ const Navbar2 = ({ showLoader }) => {
   return (
     <Navbar style={{ background: "#e8e8e8" }}>
       <Nav className="mr-auto navbar2">
-        <Dropdown>
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            <span>News</span>
-          </Dropdown.Toggle>
 
-          <Dropdown.Menu style={dropDownMenuStyle}>
-            <Dropdown.Item onClick={showLoader}>
-              <Link to="/top" style={{ textDecoration: "none", color: "#000" }}>
-                <div>Top</div>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item onClick={showLoader}>
-              <Link to="/new" style={{ textDecoration: "none", color: "#000" }}>
-                <div> New</div>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item onClick={showLoader}>
-              <Link
-                to="/best"
-                style={{ textDecoration: "none", color: "#000" }}
-              >
-                <div>Best</div>
-              </Link>
-            </Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
+        {/** Aici modificam pentru categorii (materii) */}
 
-        <Link
-          to="/shows"
-          style={linkStyle}
-          onClick={showLoader}
-          className="navLink"
-        >
-          <span>Show</span>
-        </Link>
-
-        <Link
-          to="/ask"
-          style={linkStyle}
-          onClick={showLoader}
-          className="navLink"
-        >
-          <span>Ask</span>
-        </Link>
-
-        <Link
-          to="/jobs"
-          style={linkStyle}
-          onClick={showLoader}
-          className="navLink"
-        >
-          <span>Jobs</span>
-        </Link>
+        {["ASDN", "Grafica", "Assembly", "OOP", "PSN", "Electrotehnica"].map(item => {
+          return (
+            <Link
+              to={"/"+item}
+              style={linkStyle}
+              onClick={showLoader}
+              className="navLink"
+            >
+              <span>{item}</span>
+            </Link>
+          )
+        })}
+        
       </Nav>
     </Navbar>
   );

@@ -11,20 +11,12 @@ const Header = ({ showLoader }) => {
           style={{ color: "#fff", textDecoration: "none" }}
           onClick={showLoader}
         >
-          <span className="logo">Y</span> Hacker News
+          <span className="logo">S</span> Studflow
         </Link>
       </Navbar.Brand>
 
       <Nav className="ml-auto">
-        <a
-          href="https://github.com/RocktimSaikia/hacker-news-redesign"
-          className="source"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none" }}
-        >
-          <i className="fab fa-github" style={{ fontSize: "20px" }} /> Star
-        </a>
+        
       </Nav>
     </Navbar>
   );

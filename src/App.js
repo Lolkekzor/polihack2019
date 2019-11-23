@@ -6,6 +6,8 @@ import News from "./components/News";
 import "./App.css";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 
+import data from "./data.json"
+
 const App = () => {
   const [isLoading, setLoadingState] = useState(true);
 
@@ -21,87 +23,31 @@ const App = () => {
       <Header showLoader={showLoader} />
       <Navbar2 showLoader={showLoader} />
       <Switch>
-        <>
-          <Route
-            exact
-            key="home"
-            path="/"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="shows"
-            path="/shows"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="ask"
-            path="/ask"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="jobs"
-            path="/jobs"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-
-          <Route
-            key="top"
-            path="/top"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="new"
-            path="/new"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-          <Route
-            key="best"
-            path="/best"
-            render={() => (
-              <News
-                isLoading={isLoading}
-                hideLoader={hideLoader}
-                showLoader={showLoader}
-              />
-            )}
-          />
-        </>
+        {["ASDN", "Grafica", "Assembly", "OOP", "PSN", "Electrotehnica"].map(item => {
+          return (
+            <Route
+              exact
+              path={"/"+item}
+              render={() => (
+                <News
+                  isLoading={isLoading}
+                  data={data[item]}
+                />
+              )}
+            />
+          )
+        })}
+        <Route
+          exact
+          key="home"
+          path="/"
+          render={() => (
+            <News
+              isLoading={isLoading}
+              data={[]}
+            />
+          )}
+        />
       </Switch>
       <Footer />
     </Router>
