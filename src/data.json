@@ -1,343 +1,206 @@
 {
     "OOP": [
         {
-            "author": "Tot mera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tema asta la OOP boss"
+            "author": "nico96",
+            "comments_count": 3,
+            "score": 14,
+            "time": 1574306279,
+            "title": "Ce inseamna eroarea: operator < cannot be applied to java.lang.Object",
+            "id": 1
         },
         {
-            "author": "Tot mera",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "mihai.bob",
+            "comments_count": 1,
+            "score": 7,
             "time": 1574336279,
-            "title": "Cum dreq fac tema asta la OOP boss"
+            "title": "Ce inseamna static context?",
+            "id": 2
         },
         {
-            "author": "Tot mera",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "Lolkekzor",
+            "comments_count": 7,
+            "score": 6,
+            "time": 1574136279,
+            "title": "De ce nu pot seta argumente default la o functie?",
+            "id": 3
+        },
+        {
+            "author": "mihai.bob",
+            "comments_count": 4,
+            "score": 5,
             "time": 1574336279,
-            "title": "Cum dreq fac tema asta la OOP boss"
+            "title": "De ce primesc: Illegal Start of an Expression?",
+            "id": 4
+        },
+        {
+            "author": "moldov1le4nu",
+            "comments_count": 3,
+            "score": 2,
+            "time": 1573136279,
+            "title": "Cum scap de warning-ul: Possible Loss of Precision",
+            "id": 5
         }
     ],
     "ASDN": [
         {
-            "author": "Mera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tema asta la ASDN boss"
+            "author": "Mera.Sebi",
+            "comments_count": 4,
+            "score": 19,
+            "time": 1574236279,
+            "title": "Imi explica cineva parallel load?",
+            "id": 6
         },
         {
-            "author": "Mera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tema asta la ASDN boss"
+            "author": "alepop27",
+            "comments_count": 10,
+            "score": 13,
+            "time": 1573336279,
+            "title": "Care e diferenta intre 7479 si 7469?",
+            "id": 7
         },
         {
-            "author": "Mera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tema asta la ASDN boss"
+            "author": "alepop27",
+            "comments_count": 11,
+            "score": 12,
+            "time": 1573336279,
+            "title": "De ce o zis profu ca nu am cascadat bine numaratoarele, pls help",
+            "id": 8
+        },
+        {
+            "author": "diac0nes",
+            "comments_count": 4,
+            "score": 10,
+            "time": 1571236279,
+            "title": "E corect frequency dividerul?",
+            "id": 9
+        },
+        {
+            "author": "mihai.bob",
+            "comments_count": 9,
+            "score": 9,
+            "time": 1573336279,
+            "title": "A facut cineva problema cu cuptorul electric din cartea de la curs?",
+            "id": 10
+        },
+        {
+            "author": "alepop27",
+            "comments_count": 4,
+            "score": 3,
+            "time": 1573496279,
+            "title": "Ce inseamna semnal PWM?",
+            "id": 11
         }
     ],
     "Grafica": [
         {
-            "author": "Bobi",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "tro123",
+            "comments_count": 7,
+            "score": 20,
             "time": 1574336279,
-            "title": "Casdfsadfsadgasdgasfgs"
+            "title": "De ce nu se roteste bine cubul din spate?",
+            "id": 12
         },
         {
-            "author": "hristos",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cuadfgfast3245q34taergaress"
+            "author": "nutubanutu",
+            "comments_count": 2,
+            "score": 15,
+            "time": 1574236279,
+            "title": "Imi explica cineva rasterizarea",
+            "id": 13
         },
         {
             "author": "Tsdas",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dre356wtgeafdsrfaergqsfP boss"
+            "comments_count": 5,
+            "score": 13,
+            "time": 1574136279,
+            "title": "Cum pot scala un cub sa fie alungit pe axa Ox",
+            "id": 14
         }
     ],
     "Assembly": [
         {
-            "author": "gefdga24wtrgerdga",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "greta45",
+            "comments_count": 1,
+            "score": 4,
             "time": 1574336279,
-            "title": "Cu6g45vwteertvq34vq35oss"
+            "title": "De ce nu compileaza codul?",
+            "id": 15
         },
         {
-            "author": "vacerya4uytb4tyaba",
-            "comments_count": 252353269,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cumq364nrstybseryveatP boss"
+            "author": "sasy0n3",
+            "comments_count": 2,
+            "score": 3,
+            "time": 1574136279,
+            "title": "Cu ce comanda treceam pe linia urmatoare in turbo debugger?",
+            "id": 16
         },
         {
-            "author": "Tot6b4w56bw46bw45a",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac wb6w345tq34b63wq46b5q346bw3la OOP boss"
+            "author": "sasy0n3",
+            "comments_count": 1,
+            "score": 0,
+            "time": 1574016279,
+            "title": "Care e diferenta intre JLE si JNG?",
+            "id": 17
         }
     ],
     "PSN": [
         {
-            "author": "a34t3a4ta34ta34ta",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "alepop27",
+            "comments_count": 10,
+            "score": 18,
             "time": 1574336279,
-            "title": "Cum dreq fac tema a34ta34ta34ta34ta34tasta la OOP boss"
+            "title": "Are cineva idee cum sa dai rest la proiectul cu biletele de tren?",
+            "id": 18
         },
         {
-            "author": "Tot a4ta34ta34ta34t3a4tmera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tema asta la OOa34ta34ta34ta34ta34ta34P boss"
+            "author": "Mera.Sebi",
+            "comments_count": 5,
+            "score": 12,
+            "time": 1574536279,
+            "title": "A gasit cineva un tutorial bun pt proiectul cu VGA?",
+            "id": 19
         },
         {
-            "author": "Tot mera",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "Mera.Sebi",
+            "comments_count": 7,
+            "score": 3,
             "time": 1574336279,
-            "title": "Cum dreq fac tema aa34ta34ta34ta34ta34t34atasta la OOP boss"
+            "title": "Care proiect e mai greu intre VGA si tastatura?",
+            "id": 20
+        },
+        {
+            "author": "mihai.bob",
+            "comments_count": 4,
+            "score": 2,
+            "time": 1570336279,
+            "title": "De ce primesc eroarea: Multiple drivers acting on signal d_in?",
+            "id": 21
         }
     ],
     "Electrotehnica": [
         {
-            "author": "Tot adfadfsadfasdfasdfdsa",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "vrobert",
+            "comments_count": 4,
+            "score": 10,
             "time": 1574336279,
-            "title": "Cum dreq fac tema fasdfasdfsadfasdfasdasta la OOP boss"
+            "title": "Stie cineva legea lui Norton?",
+            "id": 22
         },
         {
-            "author": "Totasfasdfasdfsadfasdfas mera",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "vrobert",
+            "comments_count": 4,
+            "score": 8,
             "time": 1574336279,
-            "title": "Cum dreq fafasdfsadfasdfasdfsadfc tema asta la OOP boss"
+            "title": "A facut cineva problema cu legea lui Thevenin?",
+            "id": 23
         },
         {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
+            "author": "vrobert",
+            "comments_count": 1,
+            "score": 2,
             "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
-        },
-        {
-            "author": "Tot masdfasdfasdfasdfasdfera",
-            "comments_count": 6969,
-            "score": 200,
-            "time": 1574336279,
-            "title": "Cum dreq fac tsdsfgjndtukfyiluigkfhgdzfsDema asta la OOP boss"
+            "title": "U = I * R?",
+            "id": 24
         }
     ]
 }
