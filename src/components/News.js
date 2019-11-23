@@ -65,7 +65,7 @@ const News = props => {
   }, []);
 
   //getting all the data ids and storing them in an array
-  const getData = async function(category, start, end) {
+  const getData = async function (category, start, end) {
     const arr = [];
     try {
       const { data } = await axios.get(
@@ -79,7 +79,7 @@ const News = props => {
   };
 
   //fetching data from those ids and storing only the necessary datas in an array
-  const getDeatils = async function(arr) {
+  const getDeatils = async function (arr) {
     const promises = arr.map(async item => {
       const { data } = await axios.get(
         `https://hacker-news.firebaseio.com/v0/item/${item}.json?print=pretty`
@@ -120,27 +120,27 @@ const News = props => {
       {props.isLoading ? (
         <Loader />
       ) : (
-        <>
-          <div
-            className={
-              isLoading
-                ? "container-fluid main overlay"
-                : "container-fluid main"
-            }
-          >
-            <table className="table">
-              <tbody>
-                <Stories state={state} />
-              </tbody>
-            </table>
-          </div>
-          <div className="text-center m-1">
-            <span className="more-btn " onClick={showMoreContent}>
-              More
+          <>
+            <div
+              className={
+                isLoading
+                  ? "container-fluid main overlay"
+                  : "container-fluid main w-75"
+              }
+            >
+              <table className="table">
+                <tbody>
+                  <Stories state={state} />
+                </tbody>
+              </table>
+            </div>
+            <div className="text-center m-1">
+              <span className="more-btn " onClick={showMoreContent}>
+                More
             </span>
-          </div>
-        </>
-      )}
+            </div>
+          </>
+        )}
     </>
   );
 };
