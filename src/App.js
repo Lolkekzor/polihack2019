@@ -3,6 +3,8 @@ import Header from "./components/layouts/Header";
 import Navbar2 from "./components/layouts/Navbar2";
 import Footer from "./components/layouts/Footer";
 import News from "./components/News";
+import PostPreview from "./components/layouts/PostPreview";
+import CommentPreview from "./components/layouts/CommentPreview";
 import "./App.css";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Question from './components/Question'

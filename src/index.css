@@ -10,3 +10,27 @@ body {
   font-family: "Open Sans", sans-serif;
   width: 100%;
 }
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.centerish {
+  margin: 0 auto; /* Added */ 
+}
+
+.noPadding {
+  margin: 5px 0px 5px 0px !important;
+  padding: 0 !important;
+}
+
+.row_uf {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.btn:disabled {
+  background-color: red
+}
