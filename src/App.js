@@ -7,8 +7,10 @@ import PostPreview from "./components/layouts/PostPreview";
 import CommentPreview from "./components/layouts/CommentPreview";
 import "./App.css";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import Question from './components/Question'
 
 import data from "./data.json"
+import UserProfile from "./components/UserProfile";
 
 const App = () => {
   const [isLoading, setLoadingState] = useState(true);
@@ -49,6 +51,14 @@ const App = () => {
               data={[]}
             />
           )}
+        />
+        <Route
+          path="/question/:id"
+          component={Question}
+        />
+        <Route
+          path="/user"
+          component={UserProfile}
         />
       </Switch>
       <Footer />
