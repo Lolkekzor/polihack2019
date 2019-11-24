@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, Button, Col, Row } from 'react-bootstrap';
-import SubdirectoryArrowRightIcon from '@material-ui/icons/SubdirectoryArrowRight';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+import ReplyIcon from '@material-ui/icons/Reply';
 
 class CommentPreview extends React.Component {
     constructor(props) {
@@ -83,12 +83,12 @@ class CommentPreview extends React.Component {
         return (
             <Row style={{ width: '75%' }} className="centerish">
                 <Col md="1">
-                    <SubdirectoryArrowRightIcon style={{ width: '75px', height: '75px', margin: '10px 10px 10px 30px' }} />
+                    <ReplyIcon className="flipuf" style={{ width: '75px', height: '75px', margin: '20px 10px 10px 30px' }} />
                 </Col>
                 <Col md="11">
                     <Card>
                         <Row className="w-100 noPadding">
-                            <Col md="1" >
+                            <Col md="2" >
                                 <Row className="d-flex justify-content-center">
                                     <Button id={"#upvote" + this.props.id} onClick={() => { this.plus() }}>⬆</Button>
                                 </Row>
@@ -98,8 +98,14 @@ class CommentPreview extends React.Component {
                                 <Row className="d-flex justify-content-center">
                                     <Button id={"#downvote" + this.props.id} disabled={this.state.minusDisabled} onClick={() => { this.minus() }}>⬇</Button>
                                 </Row>
+                                <Row className="d-flex justify-content-center border-top" style={{ margin: '5px 0px 0px 0px' }}>
+                                    <pre style={{ margin: '5px 0px 0px 0px' }} >posted by:</pre>
+                                </Row>
+                                <Row className="d-flex justify-content-center" style={{ margin: '0' }} >
+                                    <pre style={{ margin: '0' }} >{this.props.user}</pre>
+                                </Row>
                             </Col>
-                            <Col md="10">
+                            <Col md="9">
                                 <Card.Body>
                                     <Card.Text className="text-left">
                                         {this.props.text}

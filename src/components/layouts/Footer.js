@@ -7,7 +7,6 @@ class Footer extends React.Component {
         <span>
           For students by students |  ® Polihack 10{" "}
           <span role="img" aria-label="emoji">
-            ❤️
           </span>{" "}
         </span>
       </div>

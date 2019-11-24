@@ -11,7 +11,7 @@ const Header = ({ showLoader }) => {
           style={{ color: "#fff", textDecoration: "none" }}
           onClick={showLoader}
         >
-          <span className="logo">S</span> Studflow
+          <span className="logo"><b>B</b></span> RIDGEWORQ
         </Link>
       </Navbar.Brand>
 

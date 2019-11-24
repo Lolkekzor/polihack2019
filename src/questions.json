@@ -41,6 +41,7 @@
         "title": "Static Context",
         "desc": "Ce inseamna static context?",
         "upvotes": 13,
+        "user": "pikachugbbb",
         "comments": [
             {
                 "text": "O variabila statica, apartinand clasei si fiind unica, este accesibila fara a fi nevoie de instantierea vreunui obiect.",
