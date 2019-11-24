@@ -1,106 +1,481 @@
 [
     {
-        "title": "Cum fac asta?0",
-        "desc": "Blablslbalbaba",
-        "upvotes": 13,
+        "title": "operator < cannot be applied to java.lang.Object",
+        "desc": "Ce inseamna eroarea: operator < cannot be applied to java.lang.Object\nAm codul de pe site-ul domnului profesor de la curs si nu functioneaza.",
+        "upvotes": 14,
         "comments": [
             {
-                "text": "esti prost fra lasa-te",
+                "text": "Asa am patit si eu. Incearca sa faci o parsare din String in Integer",
                 "upvotes": 7
             },
             {
-                "text": "da fra chiar e prost",
-                "upvotes": 1343243
+                "text": "Nici mie nu imi merge codul",
+                "upvotes": 2
+            },
+            {
+                "text": "Ar merge sa inlocuiesti string-ul cu un numar",
+                "upvotes": 4
             }
         ]
     },
     {
-        "title": "Cum fac asta?1",
-        "desc": "Blablslbalbaba",
-        "upvotes": 13,
+        "title": "operator < cannot be applied to java.lang.Object",
+        "desc": "Ce inseamna eroarea: operator < cannot be applied to java.lang.Object\nAm codul de pe site-ul domnului profesor de la curs si nu functioneaza.",
+        "upvotes": 14,
         "comments": [
             {
-                "text": "esti prost fra lasa-te",
+                "text": "Asa am patit si eu. Incearca sa faci o parsare din String in Integer",
                 "upvotes": 7
             },
             {
-                "text": "da fra chiar e prost",
-                "upvotes": 1343243
+                "text": "Nici mie nu imi merge codul",
+                "upvotes": 2
+            },
+            {
+                "text": "Ar merge sa inlocuiesti string-ul cu un numar",
+                "upvotes": 4
             }
         ]
     },
     {
-        "title": "Cum fac asta?2",
-        "desc": "Blablslbalbaba",
+        "title": "Static Context",
+        "desc": "Ce inseamna static context?",
         "upvotes": 13,
         "comments": [
             {
-                "text": "esti prost fra lasa-te",
+                "text": "O variabila statica, apartinand clasei si fiind unica, este accesibila fara a fi nevoie de instantierea vreunui obiect.",
                 "upvotes": 7
-            },
-            {
-                "text": "da fra chiar e prost",
-                "upvotes": 1343243
             }
         ]
     },
     {
-        "title": "Cum fac asta?3",
-        "desc": "Blablslbalbaba",
-        "upvotes": 13,
+        "title": "operator < cannot be applied to java.lang.Object",
+        "desc": "Ce inseamna eroarea: operator < cannot be applied to java.lang.Object\nAm codul de pe site-ul domnului profesor de la curs si nu functioneaza.",
+        "upvotes": 14,
         "comments": [
             {
-                "text": "esti prost fra lasa-te",
+                "text": "Asa am patit si eu. Incearca sa faci o parsare din String in Integer",
                 "upvotes": 7
             },
             {
-                "text": "da fra chiar e prost",
-                "upvotes": 1343243
+                "text": "Nici mie nu imi merge codul",
+                "upvotes": 2
+            },
+            {
+                "text": "Ar merge sa inlocuiesti string-ul cu un numar",
+                "upvotes": 4
             }
         ]
     },
     {
-        "title": "Cum fac asta?4",
-        "desc": "Blablslbalbaba",
-        "upvotes": 13,
+        "title": "operator < cannot be applied to java.lang.Object",
+        "desc": "Ce inseamna eroarea: operator < cannot be applied to java.lang.Object\nAm codul de pe site-ul domnului profesor de la curs si nu functioneaza.",
+        "upvotes": 14,
         "comments": [
             {
-                "text": "esti prost fra lasa-te",
+                "text": "Asa am patit si eu. Incearca sa faci o parsare din String in Integer",
                 "upvotes": 7
             },
             {
-                "text": "da fra chiar e prost",
-                "upvotes": 1343243
+                "text": "Nici mie nu imi merge codul",
+                "upvotes": 2
+            },
+            {
+                "text": "Ar merge sa inlocuiesti string-ul cu un numar",
+                "upvotes": 4
             }
         ]
     },
     {
-        "title": "Cum fac asta?5",
-        "desc": "Blablslbalbaba",
-        "upvotes": 13,
+        "title": "operator < cannot be applied to java.lang.Object",
+        "desc": "Ce inseamna eroarea: operator < cannot be applied to java.lang.Object\nAm codul de pe site-ul domnului profesor de la curs si nu functioneaza.",
+        "upvotes": 14,
         "comments": [
             {
-                "text": "esti prost fra lasa-te",
+                "text": "Asa am patit si eu. Incearca sa faci o parsare din String in Integer",
                 "upvotes": 7
             },
             {
-                "text": "da fra chiar e prost",
-                "upvotes": 1343243
+                "text": "Nici mie nu imi merge codul",
+                "upvotes": 2
+            },
+            {
+                "text": "Ar merge sa inlocuiesti string-ul cu un numar",
+                "upvotes": 4
             }
         ]
     },
     {
-        "title": "Cum fac asta?6",
-        "desc": "Blablslbalbaba",
-        "upvotes": 13,
+        "title": "Parallel Load",
+        "desc": "Imi explica cineva parallel load?",
+        "upvotes": 19,
         "comments": [
             {
-                "text": "esti prost fra lasa-te",
+                "text": "Intr-un registru poti face load la o informatie noua, adica poti sa o incarci paralel",
                 "upvotes": 7
             },
             {
-                "text": "da fra chiar e prost",
-                "upvotes": 1343243
+                "text": "Daca ai un registru poti face parallel load cu o informatie noua",
+                "upvotes": 6
+            },
+            {
+                "text": "Poti face load",
+                "upvotes": 2
+            },
+            {
+                "text": "Poti face load sincron sau asincron, depinde de registru, la o informatie noua",
+                "upvotes": 6
+            }
+        ]
+    },
+    {
+        "title": "Parallel Load",
+        "desc": "Imi explica cineva parallel load?",
+        "upvotes": 19,
+        "comments": [
+            {
+                "text": "Intr-un registru poti face load la o informatie noua, adica poti sa o incarci paralel",
+                "upvotes": 7
+            },
+            {
+                "text": "Daca ai un registru poti face parallel load cu o informatie noua",
+                "upvotes": 6
+            },
+            {
+                "text": "Poti face load",
+                "upvotes": 2
+            },
+            {
+                "text": "Poti face load sincron sau asincron, depinde de registru, la o informatie noua",
+                "upvotes": 6
+            }
+        ]
+    },
+    {
+        "title": "Parallel Load",
+        "desc": "Imi explica cineva parallel load?",
+        "upvotes": 19,
+        "comments": [
+            {
+                "text": "Intr-un registru poti face load la o informatie noua, adica poti sa o incarci paralel",
+                "upvotes": 7
+            },
+            {
+                "text": "Daca ai un registru poti face parallel load cu o informatie noua",
+                "upvotes": 6
+            },
+            {
+                "text": "Poti face load",
+                "upvotes": 2
+            },
+            {
+                "text": "Poti face load sincron sau asincron, depinde de registru, la o informatie noua",
+                "upvotes": 6
+            }
+        ]
+    },
+    {
+        "title": "Parallel Load",
+        "desc": "Imi explica cineva parallel load?",
+        "upvotes": 19,
+        "comments": [
+            {
+                "text": "Intr-un registru poti face load la o informatie noua, adica poti sa o incarci paralel",
+                "upvotes": 7
+            },
+            {
+                "text": "Daca ai un registru poti face parallel load cu o informatie noua",
+                "upvotes": 6
+            },
+            {
+                "text": "Poti face load",
+                "upvotes": 2
+            },
+            {
+                "text": "Poti face load sincron sau asincron, depinde de registru, la o informatie noua",
+                "upvotes": 6
+            }
+        ]
+    },{
+        "title": "Parallel Load",
+        "desc": "Imi explica cineva parallel load?",
+        "upvotes": 19,
+        "comments": [
+            {
+                "text": "Intr-un registru poti face load la o informatie noua, adica poti sa o incarci paralel",
+                "upvotes": 7
+            },
+            {
+                "text": "Daca ai un registru poti face parallel load cu o informatie noua",
+                "upvotes": 6
+            },
+            {
+                "text": "Poti face load",
+                "upvotes": 2
+            },
+            {
+                "text": "Poti face load sincron sau asincron, depinde de registru, la o informatie noua",
+                "upvotes": 6
+            }
+        ]
+    },{
+        "title": "Parallel Load",
+        "desc": "Imi explica cineva parallel load?",
+        "upvotes": 19,
+        "comments": [
+            {
+                "text": "Intr-un registru poti face load la o informatie noua, adica poti sa o incarci paralel",
+                "upvotes": 7
+            },
+            {
+                "text": "Daca ai un registru poti face parallel load cu o informatie noua",
+                "upvotes": 6
+            },
+            {
+                "text": "Poti face load",
+                "upvotes": 2
+            },
+            {
+                "text": "Poti face load sincron sau asincron, depinde de registru, la o informatie noua",
+                "upvotes": 6
+            }
+        ]
+    },{
+        "title": "Rotire cub",
+        "desc": "De ce nu se roteste bine cubul din spate?",
+        "upvotes": 20,
+        "comments": [
+            {
+                "text": "Ai pus matricile in ordinea gresita",
+                "upvotes": 14
+            },
+            {
+                "text": "Trebuie sa faciprima data translate si maiapoi rotate",
+                "upvotes": 9
+            },
+            {
+                "text": "Ai incercat sa dai un restart?",
+                "upvotes": -1
+            }
+        ]
+    },
+    {
+        "title": "Rotire cub",
+        "desc": "De ce nu se roteste bine cubul din spate?",
+        "upvotes": 20,
+        "comments": [
+            {
+                "text": "Ai pus matricile in ordinea gresita",
+                "upvotes": 14
+            },
+            {
+                "text": "Trebuie sa faciprima data translate si maiapoi rotate",
+                "upvotes": 9
+            },
+            {
+                "text": "Ai incercat sa dai un restart?",
+                "upvotes": -1
+            }
+        ]
+    },
+    {
+        "title": "Rotire cub",
+        "desc": "De ce nu se roteste bine cubul din spate?",
+        "upvotes": 20,
+        "comments": [
+            {
+                "text": "Ai pus matricile in ordinea gresita",
+                "upvotes": 14
+            },
+            {
+                "text": "Trebuie sa faciprima data translate si maiapoi rotate",
+                "upvotes": 9
+            },
+            {
+                "text": "Ai incercat sa dai un restart?",
+                "upvotes": -1
+            }
+        ]
+    },
+    {
+        "title": "Compile Error",
+        "desc": "De ce nu compileaza codul?\nLW AX, 16\nADDI AX, 8\nSUB AX 24",
+        "upvotes": 4,
+        "comments": [
+            {
+                "text": "Ai uitat sa pui la instructiunea SUB virgula intre operanzi",
+                "upvotes": 14
+            }
+        ]
+    },
+    {
+        "title": "Compile Error",
+        "desc": "De ce nu compileaza codul?\nLW AX, 16\nADDI AX, 8\nSUB AX 24",
+        "upvotes": 4,
+        "comments": [
+            {
+                "text": "Ai uitat sa pui la instructiunea SUB virgula intre operanzi",
+                "upvotes": 14
+            }
+        ]
+    },
+    {
+        "title": "Compile Error",
+        "desc": "De ce nu compileaza codul?\nLW AX, 16\nADDI AX, 8\nSUB AX 24",
+        "upvotes": 4,
+        "comments": [
+            {
+                "text": "Ai uitat sa pui la instructiunea SUB virgula intre operanzi",
+                "upvotes": 14
+            }
+        ]
+    },
+    {
+        "title": "Rest la bilete de tren",
+        "desc": "Are cineva idee cum sa dai rest la proiectul cu biletele de tren?",
+        "upvotes": 18,
+        "comments": [
+            {
+                "text": "Eu m-am gandit la un sistem cu un counter si tot extragi bancnota cea mai mare dupa care urmatoarea si tot asa, in limita stocului. Posibil in unele situatii sa nu mearga dar aia e",
+                "upvotes": 14
+            },
+            {
+                "text": "Poti incerca sa vezi daca ai fix bancnota aia sa o scoti din aparat",
+                "upvotes": 3
+            },
+            {
+                "text": "Ma tot gandesc de cateva zile dar mi se pare prea greu",
+                "upvotes": 3
+            },
+            {
+                "text": "Ai putea converti valorile pe care le ai in integer dupa care sa iti faci mai usor logica cu ele si sa le convertesti inapoi",
+                "upvotes": 8
+            }
+        ]
+    },
+    {
+        "title": "Rest la bilete de tren",
+        "desc": "Are cineva idee cum sa dai rest la proiectul cu biletele de tren?",
+        "upvotes": 18,
+        "comments": [
+            {
+                "text": "Eu m-am gandit la un sistem cu un counter si tot extragi bancnota cea mai mare dupa care urmatoarea si tot asa, in limita stocului. Posibil in unele situatii sa nu mearga dar aia e",
+                "upvotes": 14
+            },
+            {
+                "text": "Poti incerca sa vezi daca ai fix bancnota aia sa o scoti din aparat",
+                "upvotes": 3
+            },
+            {
+                "text": "Ma tot gandesc de cateva zile dar mi se pare prea greu",
+                "upvotes": 3
+            },
+            {
+                "text": "Ai putea converti valorile pe care le ai in integer dupa care sa iti faci mai usor logica cu ele si sa le convertesti inapoi",
+                "upvotes": 8
+            }
+        ]
+    },
+    {
+        "title": "Rest la bilete de tren",
+        "desc": "Are cineva idee cum sa dai rest la proiectul cu biletele de tren?",
+        "upvotes": 18,
+        "comments": [
+            {
+                "text": "Eu m-am gandit la un sistem cu un counter si tot extragi bancnota cea mai mare dupa care urmatoarea si tot asa, in limita stocului. Posibil in unele situatii sa nu mearga dar aia e",
+                "upvotes": 14
+            },
+            {
+                "text": "Poti incerca sa vezi daca ai fix bancnota aia sa o scoti din aparat",
+                "upvotes": 3
+            },
+            {
+                "text": "Ma tot gandesc de cateva zile dar mi se pare prea greu",
+                "upvotes": 3
+            },
+            {
+                "text": "Ai putea converti valorile pe care le ai in integer dupa care sa iti faci mai usor logica cu ele si sa le convertesti inapoi",
+                "upvotes": 8
+            }
+        ]
+    },
+    {
+        "title": "Rest la bilete de tren",
+        "desc": "Are cineva idee cum sa dai rest la proiectul cu biletele de tren?",
+        "upvotes": 18,
+        "comments": [
+            {
+                "text": "Eu m-am gandit la un sistem cu un counter si tot extragi bancnota cea mai mare dupa care urmatoarea si tot asa, in limita stocului. Posibil in unele situatii sa nu mearga dar aia e",
+                "upvotes": 14
+            },
+            {
+                "text": "Poti incerca sa vezi daca ai fix bancnota aia sa o scoti din aparat",
+                "upvotes": 3
+            },
+            {
+                "text": "Ma tot gandesc de cateva zile dar mi se pare prea greu",
+                "upvotes": 3
+            },
+            {
+                "text": "Ai putea converti valorile pe care le ai in integer dupa care sa iti faci mai usor logica cu ele si sa le convertesti inapoi",
+                "upvotes": 8
+            }
+        ]
+    },
+    {
+        "title": "Norton",
+        "desc": "Stie cineva legea lui Norton?",
+        "upvotes": 10,
+        "comments": [
+            {
+                "text": "Teorema lui Norton este o metodă de reducere a rețelei la un circuit echivalent compus dintr-o singură sursă de curent, un rezistor în paralel și o sarcină în paralel.",
+                "upvotes": 14
+            },
+            {
+                "text": "Curentul Norton este egal cu raportul dintre tensiunea și rezistența Thevenin",
+                "upvotes": 3
+            },
+            {
+                "text": "The Norton equivalent circuit is used to represent any network of linear sources and impedances at a given frequency.",
+                "upvotes": 3
+            }
+        ]
+    },
+    {
+        "title": "Norton",
+        "desc": "Stie cineva legea lui Norton?",
+        "upvotes": 10,
+        "comments": [
+            {
+                "text": "Teorema lui Norton este o metodă de reducere a rețelei la un circuit echivalent compus dintr-o singură sursă de curent, un rezistor în paralel și o sarcină în paralel.",
+                "upvotes": 14
+            },
+            {
+                "text": "Curentul Norton este egal cu raportul dintre tensiunea și rezistența Thevenin",
+                "upvotes": 3
+            },
+            {
+                "text": "The Norton equivalent circuit is used to represent any network of linear sources and impedances at a given frequency.",
+                "upvotes": 3
+            }
+        ]
+    },
+    {
+        "title": "Norton",
+        "desc": "Stie cineva legea lui Norton?",
+        "upvotes": 10,
+        "comments": [
+            {
+                "text": "Teorema lui Norton este o metodă de reducere a rețelei la un circuit echivalent compus dintr-o singură sursă de curent, un rezistor în paralel și o sarcină în paralel.",
+                "upvotes": 14
+            },
+            {
+                "text": "Curentul Norton este egal cu raportul dintre tensiunea și rezistența Thevenin",
+                "upvotes": 3
+            },
+            {
+                "text": "The Norton equivalent circuit is used to represent any network of linear sources and impedances at a given frequency.",
+                "upvotes": 3
             }
         ]
     }
