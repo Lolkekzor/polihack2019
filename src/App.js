@@ -3,6 +3,7 @@ import Header from "./components/layouts/Header";
 import Navbar2 from "./components/layouts/Navbar2";
 import Footer from "./components/layouts/Footer";
 import News from "./components/News";
+import Home from "./components/Home";
 import "./App.css";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Question from './components/Question'
@@ -44,10 +45,7 @@ const App = () => {
           key="home"
           path="/"
           render={() => (
-            <News
-              isLoading={isLoading}
-              data={[]}
-            />
+            <Home/>
           )}
         />
         <Route

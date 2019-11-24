@@ -1,10 +1,10 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Button, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Header = ({ showLoader }) => {
   return (
-    <Navbar style={{ backgroundColor: " #ff6600" }}>
+    <Navbar style={{ backgroundColor: "#26375D" }}>
       <Navbar.Brand href="#home" style={{ color: "#fff" }}>
         <Link
           to="/"
@@ -16,7 +16,11 @@ const Header = ({ showLoader }) => {
       </Navbar.Brand>
 
       <Nav className="ml-auto">
-        
+        <Link to={'/user'}>
+          <Button variant="info">
+            My profile
+          </Button>
+        </Link>
       </Nav>
     </Navbar>
   );

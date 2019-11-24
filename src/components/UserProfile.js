@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 class UserProfile extends React.Component {
     render() {
         return (
-            <Row>
+            <Row style={{margin: '0 0 0 0'}}>
                 <Col md="4">
                     <div class="add-border">
                         <Row className="d-flex justify-content-center">

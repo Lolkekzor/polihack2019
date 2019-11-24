@@ -22,23 +22,25 @@ class Question extends React.Component {
     }
 
     addToComments() {
-        let uf = {
-            text: this.state.newComment,
-            user: 'tudi21112',
-            upvotes: 0
+        if (this.state.newComment !== "") {
+            let uf = {
+                text: this.state.newComment,
+                user: 'tudi21112',
+                upvotes: 0
+            }
+            let newComments = this.state.post.comments.concat(uf);
+            let newPost = {
+                title: this.state.post.title,
+                desc: this.state.post.desc,
+                upvotes: this.state.post.upvotes,
+                user: this.state.post.user,
+                comments: newComments
+            }
+            this.setState({
+                post: newPost,
+                newComment: ''
+            })
         }
-        let newComments = this.state.post.comments.concat(uf);
-        let newPost = {
-            title: this.state.post.title,
-            desc: this.state.post.desc,
-            upvotes: this.state.post.upvotes,
-            user: this.state.post.user,
-            comments: newComments
-        }
-        this.setState({
-            post: newPost,
-            newComment:''
-        })
     }
 
     render() {
@@ -53,10 +55,10 @@ class Question extends React.Component {
                 <Form className="border-top" style={{ width: '75%' }} >
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label >Add comment</Form.Label>
-                        <Form.Control as="textarea" rows="3" onChange={evt => { this.handleContent(evt) }} value={this.state.newComment}/>
+                        <Form.Control as="textarea" rows="3" onChange={evt => { this.handleContent(evt) }} value={this.state.newComment} />
                     </Form.Group>
                     <Form.Group >
-                        <Button style={{margin:'0px 0px 80px 0px'}} onClick={() => { this.addToComments() }} variant="primary">
+                        <Button style={{ margin: '0px 0px 80px 0px' }} onClick={() => { this.addToComments() }} variant="primary">
                             Submit
                         </Button>
                     </Form.Group>
