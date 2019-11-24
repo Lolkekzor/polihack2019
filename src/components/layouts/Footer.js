@@ -5,7 +5,7 @@ class Footer extends React.Component {
     return (
       <div className="footer">
         <span>
-          For students by students |  ® Polihack 10{" "}
+          For students by students |  ® Polihack X{" "}
           <span role="img" aria-label="emoji">
           </span>{" "}
         </span>
